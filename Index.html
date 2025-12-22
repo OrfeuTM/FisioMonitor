@@ -108,132 +108,29 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Fisio Monitor App</h1>
-        <p class="subtitulo">Vamos acompanhar seu progresso juntos!</p>
+    <div class="exercise" id="exercise-1">
+    <h2 class="exercise-name">
+      Levantar e sentar da cadeira
+    </h2>
 
-        <!-- Exercício 1 -->
-        <div class="exercicio">
-            <div class="exercicio-nome">Levantando e sentando da cadeira</div>
-            <div class="exercicio-detalhes">3 séries de 10 repetições</div>
-            <div class="serie">
-                <div class="serie-texto">Série 1:</div>
-                <div class="repeticoes">
-                    <button class="repeticao" data-serie="1-1" data-rep="1"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="2"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="3"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="4"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="5"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="6"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="7"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="8"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="9"></button>
-                    <button class="repeticao" data-serie="1-1" data-rep="10"></button>
-                </div>
-            </div>
-            <div class="serie">
-                <div class="serie-texto">Série 2:</div>
-                <div class="repeticoes">
-                    <button class="repeticao" data-serie="1-2" data-rep="1"></button>
-                    <!-- Repita para as outras 9 repetições (cortei para brevidade, mas você pode copiar) -->
-                    <button class="repeticao" data-serie="1-2" data-rep="2"></button>
-                    <button class="repeticao" data-serie="1-2" data-rep="3"></button>
-                    <button class="repeticao" data-serie="1-2" data-rep="4"></button>
-                    <button class="repeticao" data-serie="1-2" data-rep="5"></button>
-                    <button class="repeticao" data-serie="1-2" data-rep="6"></button>
-                    <button class="repeticao" data-serie="1-2" data-rep="7"></button>
-                    <button class="repeticao" data-serie="1-2" data-rep="8"></button>
-                    <button class="repeticao" data-serie="1-2" data-rep="9"></button>
-                    <button class="repeticao" data-serie="1-2" data-rep="10"></button>
-                </div>
-            </div>
-            <div class="serie">
-                <div class="serie-texto">Série 3:</div>
-                <div class="repeticoes">
-                    <!-- Mesmo padrão para Série 3 -->
-                    <button class="repeticao" data-serie="1-3" data-rep="1"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="2"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="3"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="4"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="5"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="6"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="7"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="8"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="9"></button>
-                    <button class="repeticao" data-serie="1-3" data-rep="10"></button>
-                </div>
-            </div>
-        </div>
+    <div class="sets">
+      <label>
+        <input type="checkbox" class="set-checkbox">
+        Série 1 (15 repetições)
+      </label>
 
-        <!-- Exercício 2: Elevando os joelhos (mesmo padrão, 3 séries de 15) -->
-        <div class="exercicio">
-            <div class="exercicio-nome">Elevando os joelhos</div>
-            <div class="exercicio-detalhes">3 séries de 15 repetições</div>
-            <!-- Repita o padrão de séries e repetições aqui (15 botões por série) -->
-            <div class="serie">
-                <div class="serie-texto">Série 1:</div>
-                <div class="repeticoes">
-                    <!-- 15 botões com data-serie="2-1" -->
-                    <button class="repeticao" data-serie="2-1" data-rep="1"></button>
-                    <!-- ... até 15 -->
-                </div>
-            </div>
-            <!-- Série 2 e 3 iguais -->
-        </div>
+      <label>
+        <input type="checkbox" class="set-checkbox">
+        Série 2 (15 repetições)
+      </label>
 
-        <!-- Exercício 3: Elevando os calcanhares (igual ao 2) -->
-        <div class="exercicio">
-            <div class="exercicio-nome">Elevando os calcanhares</div>
-            <div class="exercicio-detalhes">3 séries de 15 repetições</div>
-            <!-- Mesmo padrão -->
-        </div>
-
-        <!-- Exercício 4: Elevando lateral das pernas (com pernas separadas) -->
-        <div class="exercicio">
-            <div class="exercicio-nome">Elevando lateral das pernas</div>
-            <div class="exercicio-detalhes">3 séries de 10 repetições para cada perna</div>
-            
-            <div class="perna">
-                <div class="perna-texto">Perna Esquerda:</div>
-                <div class="serie">
-                    <div class="serie-texto">Série 1:</div>
-                    <div class="repeticoes">
-                        <button class="repeticao" data-serie="4-esq-1" data-rep="1"></button>
-                        <!-- 10 botões -->
-                    </div>
-                </div>
-                <!-- Série 2 e 3 para esquerda -->
-            </div>
-            
-            <div class="perna">
-                <div class="perna-texto">Perna Direita:</div>
-                <div class="serie">
-                    <div class="serie-texto">Série 1:</div>
-                    <div class="repeticoes">
-                        <button class="repeticao" data-serie="4-dir-1" data-rep="1"></button>
-                        <!-- 10 botões -->
-                    </div>
-                </div>
-                <!-- Série 2 e 3 para direita -->
-            </div>
-        </div>
+      <label>
+        <input type="checkbox" class="set-checkbox">
+        Série 3 (15 repetições)
+      </label>
     </div>
+  </div>
 
-    <script>
-        // Função para marcar/desmarcar repetições
-        document.addEventListener('DOMContentLoaded', () => {
-            const repeticoes = document.querySelectorAll('.repeticao');
-            
-            repeticoes.forEach(button => {
-                button.addEventListener('click', () => {
-                    // Alterna a classe 'marcada'
-                    button.classList.toggle('marcada');
-                    
-                    // Define o texto: "V" se marcada, vazio se não
-                    button.textContent = button.classList.contains('marcada') ? 'V' : '';
-                });
-            });
-        });
-    </script>
+  <script src="script.js"></script>
 </body>
 </html>

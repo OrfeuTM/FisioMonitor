@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.exercise {
+  border: 2px solid #ccc;
+  padding: 16px;
+  width: 320px;
+}
+
+.exercise-name {
+  margin-bottom: 12px;
+  transition: color 0.3s;
+}
+
+.sets label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Quando o exercício estiver completo */
+.exercise.completed {
+  border-color: green;
+}
+
+.exercise.completed .exercise-name {
+  color: green;
+}
