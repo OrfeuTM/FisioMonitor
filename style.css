@@ -27,3 +27,9 @@ body {
 .exercise.completed .exercise-name {
   color: green;
 }
+
+.repetitions {
+  font-size: 16px;
+  color: red;
+
+}
